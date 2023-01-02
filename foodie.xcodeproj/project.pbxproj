@@ -13,6 +13,8 @@
 		2B556CE5293B913B00F80571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B556CE3293B913B00F80571 /* Main.storyboard */; };
 		2B556CE7293B913E00F80571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B556CE6293B913E00F80571 /* Assets.xcassets */; };
 		2B556CEA293B913E00F80571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B556CE8293B913E00F80571 /* LaunchScreen.storyboard */; };
+		2B556CF2293CC9DF00F80571 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B556CF1293CC9DF00F80571 /* FilterViewController.swift */; };
+		2B556CF4293CCA5D00F80571 /* RandomFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B556CF3293CCA5D00F80571 /* RandomFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2B556CE6293B913E00F80571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B556CE9293B913E00F80571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B556CEB293B913E00F80571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B556CF1293CC9DF00F80571 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		2B556CF3293CCA5D00F80571 /* RandomFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2B556CDF293B913B00F80571 /* SceneDelegate.swift */,
 				2B556CE1293B913B00F80571 /* ViewController.swift */,
 				2B556CE3293B913B00F80571 /* Main.storyboard */,
+				2B556CF3293CCA5D00F80571 /* RandomFoodViewController.swift */,
+				2B556CF1293CC9DF00F80571 /* FilterViewController.swift */,
 				2B556CE6293B913E00F80571 /* Assets.xcassets */,
 				2B556CE8293B913E00F80571 /* LaunchScreen.storyboard */,
 				2B556CEB293B913E00F80571 /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B556CE2293B913B00F80571 /* ViewController.swift in Sources */,
+				2B556CF4293CCA5D00F80571 /* RandomFoodViewController.swift in Sources */,
 				2B556CDE293B913B00F80571 /* AppDelegate.swift in Sources */,
+				2B556CF2293CC9DF00F80571 /* FilterViewController.swift in Sources */,
 				2B556CE0293B913B00F80571 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
